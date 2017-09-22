@@ -9,28 +9,33 @@ Simple step
 Pengecekan requst akan dilakukan secara berkala mohon menunggu sehingga file anda muncul pada repository. tutorial lengkap dapat mengunjungi https://yangsu.github.io/pull-request-tutorial/
 
 Bang nasrul step
-i did these:
-1. get fork link by click the fork button on the top-right corner
-eg. my fork link was https://github.com/g64164017/Prak1_PSBO.git
-2. from terminal type:
+Asumsi: lingkungan sistem Ubuntu 17.04, dan git sudah terinstal.
+1. Dapatkan _fork link_ masing-masing, dengan mengklik tombol fork di pojok kanan-atas.
+eg. fork link saya: was https://github.com/g64164017/Prak1_PSBO.git
+2. Melalui terminal ketikan:
 `git clone https://github.com/g64164017/Prak1_PSBO.git`
-3. enter the local git folder.
+folder repo seharusnya terdownload di direktori aktif.
+3. Masuk ke folder repo
 `cd Prak1_PSBO`
-4. create my file:
+4. Buat file masing-masing
 `touch G64164017.txt`
-5. type detail into file. using nano or other text editor. 
-`nano G64164017.txt`, Ctrl+X when done and answer Y to save.
-6. add file to repo
+5. Ketikkan detail seperti yang disepakati ke dalam file. Dapat menggunakan nano atau aplikasi pengolah teks lainnya.
+`nano G64164017.txt`, tekan **Ctrl+X** dan jawab **Y** untuk keluar+simpan (hanya jika menggunakan nano).
+6. Tambahkan file ke repo
 `git add G64164017.txt`
-7. Commit to repo with comment after -m
+7. Lakukan commit ke repo, dan ketikkan komentar setelah option parameter -m
 `git commit -m "Nasrul G64164017 commmit."`
-8. check status
+8. Periksa status repo
 `git status`
-9. push to repo
+9. push
 `git push origin master`
-10. compare status 
+10. Bandingkan status sebelumnya.
 `git status`
-done
+11. Buka _fork link_, lalu klik tombol **New pull request**.
+Perbandingan terhadap _base fork_ seharusnya diperlihatkan.
+12. Klik tombol hijau **Create pull request**.
+Lengkapi isian subjek dan komentar.
+(selesai)
 
 Command line step
 * Tutorial git pull request https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
